@@ -98,6 +98,7 @@ const container = new Vue({
         }
       }, 4);
     },
+    
     loading() {
       document.getElementById('layout').style.display = 'block';
       setTimeout(function () {
